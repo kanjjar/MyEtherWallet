@@ -1,0 +1,21 @@
+import tokens from '@/_generated/tokens/tokens-xdai.json';
+import contracts from '@/_generated/contracts/contract-abi-xdai.json';
+import clo from '@/assets/images/networks/xdai.svg';
+
+export default {
+  name: ‘xdai’,
+  name_long: ‘xdai’,
+  homePage: 
+https://rpc.xdaichain.com/
+,
+  blockExplorerTX: ‘
+https://blockscout.com/xdai/mainnet/
+,
+  blockExplorerAddr: ‘https://blockscout.com/xdai/mainnet/
+,
+  chainID: 100,
+  tokens: tokens,
+  contracts: contracts,
+  icon: clo,
+  currencyName: ‘xdai’
+};
